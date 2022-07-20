@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("raleway/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("rubik/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("rubik/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #ffffff;
+  width: 1440px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.page-header {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.navigation {
+  width: 1040;
+  margin: auto;
+}
+
+.navigation-link-logo {
+  display: block;
+  margin-top: 19px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.field-search {
+  padding: 8px 14px;
+  border: 2px solid #000000;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+}
+
+.field-search::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.button-saerch {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.navigation-user {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-saerch {
+  padding: 8px 54px;
+  border: 2px solid #000000;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+}
